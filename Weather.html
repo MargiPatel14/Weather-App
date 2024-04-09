@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Update</title>
+  <link rel="stylesheet" href="Weather.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+      <div class="search">
+        <img src="bars-solid(white).svg" class="icon-menu">
+        <div class="search-box">
+          <input type="text" name="Search City" placeholder="Search City Name">
+          <button><i><img src="search-2.png" alt=""></i></button>
+        </div>
+      </div>
+      <div class="error">
+        <p>Invalid city Name</p>
+      </div>
+
+      <div class="weather">
+
+        <h1 class="city">NEW DELHI</h1>
+        <h2 class="day-time"></h2>
+
+        <img src="3d weather icons/moon/10.png" class="weather-icon">
+        <h3 class="temp">23°c</h3>
+
+        <h4 class="day-night"></h4>
+        <h5 class="country">INDIA</h5>
+        <div class="max-min">
+          <h5 class="max"> Max Temp - 10°c </h5>
+          <h5 class="min"> Min Temp - 7°c </h5>
+        </div>
+        
+        <div class="line"></div>
+
+        <div class="details">
+
+          <div class="col1">
+            <img src="thermometer.png" alt="">
+            <div>
+              <p class="feels-like">FEELS LIKE</p>
+              <p class="temp2">21°c</p>
+            </div>
+          </div>
+
+          <div class="vertical"></div>
+
+          <div class="col">
+            <img src="wind(white).png" alt="">
+            <div>
+              <p class="wind">WIND</p>
+              <p class="speed">15 KM/H</p>
+            </div>
+          </div>
+
+          <div class="vertical"></div>
+          
+          <div class="col">
+            <img src="humidity(white).png" alt="">
+            <div>
+              <p class="humidity">HUMIDITY</p>
+              <p class="percentage">71%</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <script src="Weather.js"></script>
+
+</body>
+</html>
