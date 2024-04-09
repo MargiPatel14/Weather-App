@@ -39,4 +39,8 @@ Welcome to the Weather App! This project is a simple web application created usi
 
 ## Screenshots
 
+**Weather App**
+
+   ![HomePage](https://github.com/MargiPatel14/Weather-App/blob/main/SS%20Weather%20App.png)
+
 
